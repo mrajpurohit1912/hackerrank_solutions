@@ -33,3 +33,19 @@
 
 
 # print(list(product(a,b)))
+
+
+#itertools.permutations()
+
+# s = "HACK"
+
+# for i in s:
+#     for j in s:
+#         print(i + j)
+
+
+# from itertools import permutations
+# str1, int1 = input().split()
+
+# for i in sorted(permutations(str1, int(int1))):
+#     print (''.join(i))
