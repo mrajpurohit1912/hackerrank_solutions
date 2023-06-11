@@ -22,7 +22,7 @@
 #     s = input()
 #     minion_game(s)
 
-
+######################################################################################
 
 #itertools.product() 
 
@@ -34,6 +34,7 @@
 
 # print(list(product(a,b)))
 
+######################################################################################
 
 #itertools.permutations()
 
@@ -49,3 +50,50 @@
 
 # for i in sorted(permutations(str1, int(int1))):
 #     print (''.join(i))
+
+
+######################################################################################
+
+#collections.Counter()
+# from collections import Counter
+
+# x = int(input())
+# lst = Counter(list(map(int,input().split())))
+
+# money = 0
+
+# for i in range(int(input())):
+#     size, value = map(int,input().split())
+#     if lst[size]:
+#         money +=  value
+#         lst[size] -=  1
+
+# print(money)
+
+######################################################################################
+
+#Polar Coordinates
+# from cmath import phase
+
+# i = complex(input())
+
+# x = phase(i)
+# y = abs(i)
+
+# print(format(y,".3f"))
+# print(format(x,".3f"))
+
+
+######################################################################################
+# def average(array):
+#     s = set(arr)
+#     return float(sum(s)/len(s))
+
+# if __name__ == '__main__':
+#     n = int(input())
+#     arr = list(map(int, input().split()))
+#     result = average(arr)
+#     print(result)
+
+
+######################################################################################
