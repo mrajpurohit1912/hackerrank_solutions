@@ -113,3 +113,14 @@
 #     print(merge_the_tools(string, k))
     
 ######################################################################################
+
+#Calendar Module
+
+# import calendar
+
+# m,d,y = map(int,input().split())
+# #print(calendar.TextCalendar(firstweekday=5).formatyear(2023))
+
+# print(calendar.day_name[calendar.weekday(y,m,d)].upper())
+
+######################################################################################
